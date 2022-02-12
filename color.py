@@ -1,4 +1,4 @@
-"""Color blocks"""
+"""A mapping from colors to integers or characters"""
 
 class Colors:
     BLANK = 0
@@ -11,18 +11,8 @@ class Colors:
     DEEP_GREEN = 7
     BROWN = 8
     SHALLOW_BLUE = 9
-    SKY_BLUE = 10
-    ORANGE = 11
-    SHIT_YELLOW = 12
+    # avoid using integer 10,11,12, which may cause overlaped states
+    SKY_BLUE = 'A'
+    ORANGE = 'B'
+    SHIT_YELLOW = 'C'
 
-
-# 20003130132213120000
-# 22203130130013120000
-# 22223130130013100000
-# 22223130100013103000
-# 22223100100013103300
-# 22223000110013103300
-# 22220000110013103330
-# 22220000111013003330
-# 22220000111010003333
-# 22220000111100003333
