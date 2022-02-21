@@ -97,7 +97,7 @@ $ python3 main.py --search=bfs
 
 ## 4. Example
 
-Taking level 7 as an example. 
+Taking level 7 as an example. (The demo can be found [here](https://www.bilibili.com/video/BV1ob4y1j7Xc?spm_id_from=333.999.0.0))
 
 <img src="images/level-7.png" style="zoom:50%;" />
 
