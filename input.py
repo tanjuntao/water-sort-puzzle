@@ -12,7 +12,7 @@ def get_start_board():
     N_BOTTLES = 14  # total number of bottles including empty bottles
     global_board = []
     bottles = [[] for _ in range(N_BOTTLES)]
-
+    
     # the first two bottles are always empty
     bottles[0] = [Colors.BLANK, Colors.BLANK, Colors.BLANK, Colors.BLANK]
     bottles[1] = [Colors.BLANK, Colors.BLANK, Colors.BLANK, Colors.BLANK]
@@ -153,3 +153,4 @@ if __name__ == '__main__':
 
     for bottle in start_board:
         print(bottle.number, bottle.data)
+        
